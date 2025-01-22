@@ -10,11 +10,11 @@ function App() {
       <Nav />
 
       {/* Hero section */}
-      <section className=" relative">
-        <div className="bg-[url(/blob.svg)] bg-left-bottom bg-no-repeat h-[700px] dark:bg-[#1d1d1d] bg-white bg-opacity-95 relative top-0 z-10">
+      <section className="relative">
+        <div className="md:bg-[url(/blob.svg)] bg-left-bottom bg-no-repeat h-[700px] dark:bg-[#1d1d1d] opacity-95 bg-white relative top-0 z-10">
           <div className="max-w-5xl mx-auto px-4 py-12 flex gap-4 justify-between items-center relative">
             <div className="text">
-              <h1 className="text-5xl font-medium">Mutual Investment</h1>
+              <h1 className="text-2xl md:text-5xl font-medium">Mutual Investment</h1>
               <p className="my-5 font-light dark:text-[#A9A9A9] text-[#767676] leading-7 text-lg">
                 At Finance we care about your future. We help you invest the way
                 you want. So you can relax, have fun and let your fund grow.
@@ -29,7 +29,7 @@ function App() {
             <img
               src={ManIllustration}
               alt="man illustration"
-              className="max-w-xl"
+              className="md:max-w-xl max-w-full"
             />
           </div>
 
